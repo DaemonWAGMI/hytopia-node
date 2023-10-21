@@ -78,5 +78,5 @@ $EDGE_BIN_PATH server --data-dir "${HYTOPIA_NETWORK}/data" \
                       --json-rpc-batch-request-limit 500 \
                       --grpc-address "0.0.0.0:10000" \
                       --libp2p "0.0.0.0:10001" \
-                      --jsonrpc "0.0.0.0:443" \
+                      --jsonrpc "0.0.0.0:10002" \
                       2>&1 | sed -e 's/polygon/hytopia/g' -e 's/polybft/hytopiabft/g'
